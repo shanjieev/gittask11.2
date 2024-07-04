@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+#survey-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+}
+:root{
+    --theme: #262A33;
+}
+
+body {
+    background-color: var(--theme);
+    font-family: Verdana;
+    text-align: center;
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    outline: none;
+    max-width: 95%;
+    max-height: 300px;
+}
+
+input:focus, textarea:focus{
+    border: 3px solid black;
+}
+
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+button {
+    background-color: var(--theme);
+    color: white;
+    border: 1px solid #777;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+button:hover, input[type="radio"], input[type="checkbox"]{
+    cursor: pointer;
+}
+
+
+#survey-form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
